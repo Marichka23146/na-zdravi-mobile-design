@@ -1,19 +1,16 @@
-# 🍺 Na Zdraví! — Дизайн мобільного додатка
+# React + Vite
 
-Проєкт крафтового магазину чеських напоїв. Дизайн розроблено з фокусом на автентичну атмосферу та зручний інтерфейс для замовлення товарів по всій країні.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🔗 Посилання на проєкт
-- [**Дивитися макет у Figma**](https://www.figma.com/design/bSpwwlVDCOAErtdehgwwFl/Untitled?node-id=0-1&m=dev&t=dR7Zoev1gWNWxBIK-1)
+Currently, two official plugins are available:
 
-## 🛠 Реалізовані блоки:
-- **Головна (Home):** Навігація та категорії товарів.
-- **Про нас (About Us):** Місія бренду, історія та логіка доставки.
-- **Доставка:** Детальний опис умов отримання по місту та країні (18+).
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🎨 Дизайн-рішення:
-- **Шрифтова пара:** Playfair Display (акцентний) + Montserrat (основний).
-- **Колірна гама:** Поєднання преміального синього та світлих відтінків для "чистоти" інтерфейсу.
-- **Стиль:** Modern Minimalist.
+## React Compiler
 
-## 📱 Скріншот макета
-![About Us Screen](./about_us.png)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
